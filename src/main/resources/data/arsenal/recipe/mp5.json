@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "PRB",
+    "P  "
+  ],
+  "key": {
+    "P": "arsenal:polymer",
+    "R": "arsenal:gun_receiver",
+    "B": "arsenal:gun_barrel"
+  },
+  "result": {
+    "id": "arsenal:mp5",
+    "count": 1
+  }
+}

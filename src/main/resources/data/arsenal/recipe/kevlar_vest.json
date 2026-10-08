@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "F F",
+    "FFF",
+    "FFF"
+  ],
+  "key": {
+    "F": "arsenal:kevlar_fabric"
+  },
+  "result": {
+    "id": "arsenal:kevlar_vest",
+    "count": 1
+  }
+}

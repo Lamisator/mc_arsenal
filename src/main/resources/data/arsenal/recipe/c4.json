@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "EC",
+    "CE"
+  ],
+  "key": {
+    "E": "arsenal:explosive_charge",
+    "C": "minecraft:clay_ball"
+  },
+  "result": {
+    "id": "arsenal:c4",
+    "count": 2
+  }
+}

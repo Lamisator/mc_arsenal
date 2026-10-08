@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:gunpowder",
+    "minecraft:iron_ingot",
+    "arsenal:brass_casing"
+  ],
+  "result": {
+    "id": "arsenal:shell_slug",
+    "count": 6
+  }
+}

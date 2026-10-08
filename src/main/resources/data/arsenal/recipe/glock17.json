@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RB",
+    "P "
+  ],
+  "key": {
+    "R": "arsenal:gun_receiver",
+    "B": "arsenal:gun_barrel",
+    "P": "arsenal:polymer"
+  },
+  "result": {
+    "id": "arsenal:glock17",
+    "count": 1
+  }
+}

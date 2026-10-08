@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "WBB",
+    " R "
+  ],
+  "key": {
+    "W": "#minecraft:planks",
+    "B": "arsenal:gun_barrel",
+    "R": "arsenal:gun_receiver"
+  },
+  "result": {
+    "id": "arsenal:rpg7",
+    "count": 1
+  }
+}

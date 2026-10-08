@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:gunpowder",
+    "minecraft:gunpowder",
+    "minecraft:clay_ball"
+  ],
+  "result": {
+    "id": "arsenal:explosive_charge",
+    "count": 1
+  }
+}

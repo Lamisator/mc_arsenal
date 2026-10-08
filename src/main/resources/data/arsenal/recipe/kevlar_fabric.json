@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SLS",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "arsenal:kevlar_fabric",
+    "count": 2
+  }
+}

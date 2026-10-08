@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "G  ",
+    "PRB",
+    "P  "
+  ],
+  "key": {
+    "G": "minecraft:glass_pane",
+    "P": "arsenal:polymer",
+    "R": "arsenal:gun_receiver",
+    "B": "arsenal:gun_barrel"
+  },
+  "result": {
+    "id": "arsenal:m4a1",
+    "count": 1
+  }
+}

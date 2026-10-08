@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "F F",
+    "FCF",
+    "FCF"
+  ],
+  "key": {
+    "F": "arsenal:kevlar_fabric",
+    "C": "arsenal:ceramic_plate"
+  },
+  "result": {
+    "id": "arsenal:plate_carrier",
+    "count": 1
+  }
+}

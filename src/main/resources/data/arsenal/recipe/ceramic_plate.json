@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "BIB"
+  ],
+  "key": {
+    "B": "minecraft:brick",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "arsenal:ceramic_plate",
+    "count": 2
+  }
+}

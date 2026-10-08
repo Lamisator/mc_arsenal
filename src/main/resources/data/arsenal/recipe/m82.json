@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "S I",
+    "IRB",
+    "I B"
+  ],
+  "key": {
+    "S": "arsenal:scope",
+    "I": "minecraft:iron_ingot",
+    "R": "arsenal:gun_receiver",
+    "B": "arsenal:gun_barrel"
+  },
+  "result": {
+    "id": "arsenal:m82",
+    "count": 1
+  }
+}

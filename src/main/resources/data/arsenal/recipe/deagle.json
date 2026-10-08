@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RB",
+    "I "
+  ],
+  "key": {
+    "R": "arsenal:gun_receiver",
+    "B": "arsenal:gun_barrel",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "arsenal:deagle",
+    "count": 1
+  }
+}

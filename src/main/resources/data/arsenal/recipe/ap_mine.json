@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " P ",
+    "NEN"
+  ],
+  "key": {
+    "P": "arsenal:polymer",
+    "N": "minecraft:iron_nugget",
+    "E": "arsenal:explosive_charge"
+  },
+  "result": {
+    "id": "arsenal:ap_mine",
+    "count": 2
+  }
+}

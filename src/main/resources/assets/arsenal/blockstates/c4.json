@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "arsenal:block/c4"
+    },
+    "facing=down": {
+      "model": "arsenal:block/c4",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "arsenal:block/c4",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "arsenal:block/c4",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "arsenal:block/c4",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west": {
+      "model": "arsenal:block/c4",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

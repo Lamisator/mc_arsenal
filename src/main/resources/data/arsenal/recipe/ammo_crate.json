@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:chest",
+    "minecraft:green_dye",
+    "minecraft:iron_ingot"
+  ],
+  "result": {
+    "id": "arsenal:ammo_crate",
+    "count": 1
+  }
+}

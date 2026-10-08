@@ -1,0 +1,139 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "arsenal:block/c4",
+    "c4": "arsenal:block/c4",
+    "cap": "arsenal:block/c4_cap",
+    "wire": "arsenal:block/c4_wire"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        5
+      ],
+      "to": [
+        13,
+        3,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#c4"
+        },
+        "south": {
+          "texture": "#c4"
+        },
+        "east": {
+          "texture": "#c4"
+        },
+        "west": {
+          "texture": "#c4"
+        },
+        "up": {
+          "texture": "#c4"
+        },
+        "down": {
+          "texture": "#c4"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        3,
+        7
+      ],
+      "to": [
+        8,
+        4,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cap"
+        },
+        "south": {
+          "texture": "#cap"
+        },
+        "east": {
+          "texture": "#cap"
+        },
+        "west": {
+          "texture": "#cap"
+        },
+        "up": {
+          "texture": "#cap"
+        },
+        "down": {
+          "texture": "#cap"
+        }
+      }
+    },
+    {
+      "from": [
+        7.3,
+        3.5,
+        2
+      ],
+      "to": [
+        7.7,
+        3.9,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wire"
+        },
+        "south": {
+          "texture": "#wire"
+        },
+        "east": {
+          "texture": "#wire"
+        },
+        "west": {
+          "texture": "#wire"
+        },
+        "up": {
+          "texture": "#wire"
+        },
+        "down": {
+          "texture": "#wire"
+        }
+      }
+    },
+    {
+      "from": [
+        8.1,
+        3.4,
+        1
+      ],
+      "to": [
+        8.5,
+        3.8,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wire"
+        },
+        "south": {
+          "texture": "#wire"
+        },
+        "east": {
+          "texture": "#wire"
+        },
+        "west": {
+          "texture": "#wire"
+        },
+        "up": {
+          "texture": "#wire"
+        },
+        "down": {
+          "texture": "#wire"
+        }
+      }
+    }
+  ]
+}

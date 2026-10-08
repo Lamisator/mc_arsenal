@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "arsenal",
+	"version": "${version}",
+	"name": "Arsenal",
+	"description": "Modern military weapons: pistols, a submachine gun, assault rifles, shotguns, sniper rifles, the RPG-7 and the Javelin, hand grenades and flashbangs, claymores, mines and C4, a combat knife, Kevlar vests, plate carriers and helmets that really stop bullets, weapon racks and ammunition. Real ballistics: bullet drop, penetration, hit zones.",
+	"authors": ["Marius Kloeck"],
+	"license": "MIT",
+	"icon": "assets/arsenal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["net.antwire.arsenal.Arsenal"],
+		"client": ["net.antwire.arsenal.client.ArsenalClient"]
+	},
+	"mixins": [
+		"arsenal.mixins.json",
+		{
+			"config": "arsenal.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

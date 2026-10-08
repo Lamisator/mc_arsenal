@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "arsenal:explosive_charge",
+    "arsenal:explosive_charge",
+    "arsenal:explosive_charge",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:gold_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:copper_ingot"
+  ],
+  "result": {
+    "id": "arsenal:javelin_missile",
+    "count": 1
+  }
+}

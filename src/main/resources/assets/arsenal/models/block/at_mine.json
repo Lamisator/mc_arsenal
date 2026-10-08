@@ -1,0 +1,116 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "arsenal:block/at_mine",
+    "top": "arsenal:block/at_mine",
+    "side": "arsenal:block/at_mine_side",
+    "fuze": "arsenal:block/mine_fuze"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        3.0,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#top"
+        }
+      }
+    },
+    {
+      "from": [
+        3.08,
+        0,
+        3.08
+      ],
+      "to": [
+        12.92,
+        3.0,
+        12.92
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#top"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          0,
+          8
+        ],
+        "axis": "y",
+        "angle": 45
+      }
+    },
+    {
+      "from": [
+        5.6,
+        3.0,
+        5.6
+      ],
+      "to": [
+        10.4,
+        3.5,
+        10.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#fuze"
+        },
+        "south": {
+          "texture": "#fuze"
+        },
+        "east": {
+          "texture": "#fuze"
+        },
+        "west": {
+          "texture": "#fuze"
+        },
+        "up": {
+          "texture": "#fuze"
+        },
+        "down": {
+          "texture": "#fuze"
+        }
+      }
+    }
+  ]
+}

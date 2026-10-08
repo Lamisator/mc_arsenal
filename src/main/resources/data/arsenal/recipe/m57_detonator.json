@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "RP",
+    "IN"
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "P": "arsenal:polymer",
+    "I": "minecraft:iron_ingot",
+    "N": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "arsenal:m57_detonator",
+    "count": 1
+  }
+}

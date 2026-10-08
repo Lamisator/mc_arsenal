@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "INI",
+    "IRI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "N": "minecraft:iron_nugget",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "arsenal:gun_receiver",
+    "count": 1
+  }
+}

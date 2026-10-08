@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "PRB",
+    " PB"
+  ],
+  "key": {
+    "P": "arsenal:polymer",
+    "R": "arsenal:gun_receiver",
+    "B": "arsenal:gun_barrel"
+  },
+  "result": {
+    "id": "arsenal:m4super90",
+    "count": 1
+  }
+}

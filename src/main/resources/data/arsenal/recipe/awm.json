@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "S  ",
+    "PRB",
+    "P B"
+  ],
+  "key": {
+    "S": "arsenal:scope",
+    "P": "arsenal:polymer",
+    "R": "arsenal:gun_receiver",
+    "B": "arsenal:gun_barrel"
+  },
+  "result": {
+    "id": "arsenal:awm",
+    "count": 1
+  }
+}

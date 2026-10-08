@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "III",
+    "EEE",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "E": "arsenal:explosive_charge"
+  },
+  "result": {
+    "id": "arsenal:at_mine",
+    "count": 1
+  }
+}

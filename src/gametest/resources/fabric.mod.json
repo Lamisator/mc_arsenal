@@ -1,0 +1,10 @@
+{
+	"schemaVersion": 1,
+	"id": "arsenal-gametest",
+	"version": "1.0.0",
+	"name": "Arsenal tour",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": ["net.antwire.arsenal.gametest.ArsenalTour"]
+	}
+}

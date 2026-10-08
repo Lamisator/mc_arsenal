@@ -1,0 +1,400 @@
+{
+  "shot.glock17": {
+    "sounds": [
+      {
+        "name": "arsenal:shot/glock17",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.arsenal.shot"
+  },
+  "shot.deagle": {
+    "sounds": [
+      {
+        "name": "arsenal:shot/deagle",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.arsenal.shot"
+  },
+  "shot.mp5": {
+    "sounds": [
+      {
+        "name": "arsenal:shot/mp5",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.arsenal.shot"
+  },
+  "shot.m4a1": {
+    "sounds": [
+      {
+        "name": "arsenal:shot/m4a1",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.arsenal.shot"
+  },
+  "shot.ak47": {
+    "sounds": [
+      {
+        "name": "arsenal:shot/ak47",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.arsenal.shot"
+  },
+  "shot.r870": {
+    "sounds": [
+      {
+        "name": "arsenal:shot/r870",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.arsenal.shot"
+  },
+  "shot.m4super90": {
+    "sounds": [
+      {
+        "name": "arsenal:shot/m4super90",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.arsenal.shot"
+  },
+  "shot.awm": {
+    "sounds": [
+      {
+        "name": "arsenal:shot/awm",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.arsenal.shot"
+  },
+  "shot.m82": {
+    "sounds": [
+      {
+        "name": "arsenal:shot/m82",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.arsenal.shot"
+  },
+  "launch.rpg7": {
+    "sounds": [
+      {
+        "name": "arsenal:shot/rpg7",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.arsenal.launch"
+  },
+  "launch.javelin": {
+    "sounds": [
+      {
+        "name": "arsenal:shot/javelin",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.arsenal.launch"
+  },
+  "gun.dry_fire": {
+    "sounds": [
+      {
+        "name": "arsenal:gun/dry_fire"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.gun_dry_fire"
+  },
+  "gun.mag_out": {
+    "sounds": [
+      {
+        "name": "arsenal:gun/mag_out"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.gun_mag_out"
+  },
+  "gun.mag_in": {
+    "sounds": [
+      {
+        "name": "arsenal:gun/mag_in"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.gun_mag_in"
+  },
+  "gun.charge": {
+    "sounds": [
+      {
+        "name": "arsenal:gun/charge"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.gun_charge"
+  },
+  "gun.slide": {
+    "sounds": [
+      {
+        "name": "arsenal:gun/slide"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.gun_slide"
+  },
+  "gun.shell_insert": {
+    "sounds": [
+      {
+        "name": "arsenal:gun/shell_insert"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.gun_shell_insert"
+  },
+  "gun.pump": {
+    "sounds": [
+      {
+        "name": "arsenal:gun/pump"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.gun_pump"
+  },
+  "gun.bolt": {
+    "sounds": [
+      {
+        "name": "arsenal:gun/bolt"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.gun_bolt"
+  },
+  "gun.rocket_load": {
+    "sounds": [
+      {
+        "name": "arsenal:gun/rocket_load"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.gun_rocket_load"
+  },
+  "gun.mode": {
+    "sounds": [
+      {
+        "name": "arsenal:gun/mode"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.gun_mode"
+  },
+  "gun.casing": {
+    "sounds": [
+      {
+        "name": "arsenal:gun/casing_0"
+      },
+      {
+        "name": "arsenal:gun/casing_1"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.gun_casing"
+  },
+  "bullet.impact_hard": {
+    "sounds": [
+      {
+        "name": "arsenal:bullet/impact_hard_0"
+      },
+      {
+        "name": "arsenal:bullet/impact_hard_1"
+      },
+      {
+        "name": "arsenal:bullet/impact_hard_2"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.bullet_impact_hard"
+  },
+  "bullet.impact_soft": {
+    "sounds": [
+      {
+        "name": "arsenal:bullet/impact_soft_0"
+      },
+      {
+        "name": "arsenal:bullet/impact_soft_1"
+      },
+      {
+        "name": "arsenal:bullet/impact_soft_2"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.bullet_impact_soft"
+  },
+  "bullet.impact_flesh": {
+    "sounds": [
+      {
+        "name": "arsenal:bullet/impact_flesh_0"
+      },
+      {
+        "name": "arsenal:bullet/impact_flesh_1"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.bullet_impact_flesh"
+  },
+  "bullet.impact_metal": {
+    "sounds": [
+      {
+        "name": "arsenal:bullet/impact_metal_0"
+      },
+      {
+        "name": "arsenal:bullet/impact_metal_1"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.bullet_impact_metal"
+  },
+  "bullet.armor_hit": {
+    "sounds": [
+      {
+        "name": "arsenal:bullet/armor_hit"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.bullet_armor_hit"
+  },
+  "bullet.crack": {
+    "sounds": [
+      {
+        "name": "arsenal:bullet/crack_0"
+      },
+      {
+        "name": "arsenal:bullet/crack_1"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.bullet_crack"
+  },
+  "bullet.whiz": {
+    "sounds": [
+      {
+        "name": "arsenal:bullet/whiz_0"
+      },
+      {
+        "name": "arsenal:bullet/whiz_1"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.bullet_whiz"
+  },
+  "grenade.pin": {
+    "sounds": [
+      {
+        "name": "arsenal:grenade/pin"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.grenade_pin"
+  },
+  "grenade.bounce": {
+    "sounds": [
+      {
+        "name": "arsenal:grenade/bounce_0"
+      },
+      {
+        "name": "arsenal:grenade/bounce_1"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.grenade_bounce"
+  },
+  "explosion.grenade": {
+    "sounds": [
+      {
+        "name": "arsenal:explosion/grenade",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.arsenal.explosion_grenade"
+  },
+  "explosion.rocket": {
+    "sounds": [
+      {
+        "name": "arsenal:explosion/rocket",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.arsenal.explosion_rocket"
+  },
+  "explosion.c4": {
+    "sounds": [
+      {
+        "name": "arsenal:explosion/c4",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.arsenal.explosion_c4"
+  },
+  "flashbang.bang": {
+    "sounds": [
+      {
+        "name": "arsenal:flashbang/bang",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.arsenal.flashbang_bang"
+  },
+  "flashbang.ring": {
+    "sounds": [
+      {
+        "name": "arsenal:flashbang/ring"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.flashbang_ring"
+  },
+  "smoke.hiss": {
+    "sounds": [
+      {
+        "name": "arsenal:smoke/hiss"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.smoke_hiss"
+  },
+  "mine.click": {
+    "sounds": [
+      {
+        "name": "arsenal:mine/click"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.mine_click"
+  },
+  "mine.arm": {
+    "sounds": [
+      {
+        "name": "arsenal:mine/arm"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.mine_arm"
+  },
+  "detonator.click": {
+    "sounds": [
+      {
+        "name": "arsenal:detonator/click"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.detonator_click"
+  },
+  "detector.beep": {
+    "sounds": [
+      {
+        "name": "arsenal:detector/beep"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.detector_beep"
+  },
+  "rocket.loop": {
+    "sounds": [
+      {
+        "name": "arsenal:rocket/loop",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.arsenal.rocket_loop"
+  },
+  "javelin.seek": {
+    "sounds": [
+      {
+        "name": "arsenal:javelin/seek"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.javelin_seek"
+  },
+  "javelin.lock": {
+    "sounds": [
+      {
+        "name": "arsenal:javelin/lock"
+      }
+    ],
+    "subtitle": "subtitles.arsenal.javelin_lock"
+  }
+}

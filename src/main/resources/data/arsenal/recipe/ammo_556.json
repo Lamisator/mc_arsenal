@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "arsenal:brass_casing",
+    "minecraft:gunpowder",
+    "minecraft:gunpowder",
+    "minecraft:iron_nugget",
+    "minecraft:copper_ingot"
+  ],
+  "result": {
+    "id": "arsenal:ammo_556",
+    "count": 24
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SRE",
+    "BBB",
+    "PRP"
+  ],
+  "key": {
+    "S": "arsenal:scope",
+    "R": "minecraft:redstone",
+    "E": "arsenal:explosive_charge",
+    "B": "arsenal:gun_barrel",
+    "P": "arsenal:polymer"
+  },
+  "result": {
+    "id": "arsenal:javelin",
+    "count": 1
+  }
+}

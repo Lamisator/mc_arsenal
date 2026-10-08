@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:gunpowder",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "arsenal:brass_casing"
+  ],
+  "result": {
+    "id": "arsenal:shell_buckshot",
+    "count": 8
+  }
+}
