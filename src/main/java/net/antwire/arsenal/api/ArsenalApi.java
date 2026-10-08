@@ -61,6 +61,12 @@ public final class ArsenalApi {
 	 * widens the cone from the gun's aimed spread to several times that (a nervous shooter, a moving one).
 	 */
 	public static boolean fire(LivingEntity shooter, String id, float yaw, float pitch, float inaccuracy) {
+		return fire(shooter, id, yaw, pitch, inaccuracy, null);
+	}
+
+	/** As above; the rounds pass harmlessly by whatever {@code spare} accepts (the shooter's friends). */
+	public static boolean fire(LivingEntity shooter, String id, float yaw, float pitch, float inaccuracy,
+		java.util.function.@Nullable Predicate<net.minecraft.world.entity.Entity> spare) {
 		GunType type = gun(id);
 		if (type == null || type.isLauncher() || !(shooter.level() instanceof ServerLevel level)) {
 			return false;
@@ -70,7 +76,7 @@ public final class ArsenalApi {
 		float movement = Math.clamp(inaccuracy, 0, 1);
 		Vec3 eye = shooter.getEyePosition();
 		for (Vec3 dir : Spread.directions(type, caliber, yaw, pitch, true, movement, seed)) {
-			Ballistics.fire(level, shooter, eye, dir, caliber, type.velocityFactor, type.damageFactor);
+			Ballistics.fire(level, shooter, eye, dir, caliber, type.velocityFactor, type.damageFactor, spare);
 		}
 		level.playSound(null, shooter.getX(), shooter.getEyeY(), shooter.getZ(), ModSounds.SHOTS.get(type).value(), SoundSource.HOSTILE,
 			type.category == GunType.Category.SNIPER ? 6.0F : 4.0F, 0.95F + level.getRandom().nextFloat() * 0.1F);

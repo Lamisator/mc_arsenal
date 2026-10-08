@@ -85,7 +85,7 @@
   "message.arsenal.sensor_off": "Claymore sensor off: command detonation only",
   "commands.arsenal.kit.unknown": "Unknown loadout %s (try %s)",
   "commands.arsenal.kit.given": "Gave the %s loadout to %s players",
-  "death.attack.arsenal.bullet": "%1$s was shot",
+  "death.attack.arsenal.bullet": "%1$s was shot by %2$s",
   "death.attack.arsenal.bullet.player": "%1$s was shot by %2$s",
   "death.attack.arsenal.bullet.item": "%1$s was shot by %2$s using %3$s",
   "death.attack.arsenal.fragment": "%1$s was cut down by shrapnel",

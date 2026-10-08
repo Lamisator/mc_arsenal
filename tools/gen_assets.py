@@ -894,7 +894,7 @@ def lang():
         "message.arsenal.disarmed": "Disarmed", "message.arsenal.sensor_on": "Claymore sensor on: it fires at anyone in front",
         "message.arsenal.sensor_off": "Claymore sensor off: command detonation only",
         "commands.arsenal.kit.unknown": "Unknown loadout %s (try %s)", "commands.arsenal.kit.given": "Gave the %s loadout to %s players",
-        "death.attack.arsenal.bullet": "%1$s was shot", "death.attack.arsenal.bullet.player": "%1$s was shot by %2$s",
+        "death.attack.arsenal.bullet": "%1$s was shot by %2$s", "death.attack.arsenal.bullet.player": "%1$s was shot by %2$s",
         "death.attack.arsenal.bullet.item": "%1$s was shot by %2$s using %3$s",
         "death.attack.arsenal.fragment": "%1$s was cut down by shrapnel", "death.attack.arsenal.fragment.player": "%1$s was cut down by %2$s's shrapnel",
         "death.attack.arsenal.backblast": "%1$s stood behind a rocket launcher", "death.attack.arsenal.backblast.player": "%1$s was burnt by %2$s's backblast",

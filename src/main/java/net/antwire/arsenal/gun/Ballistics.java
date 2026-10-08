@@ -63,6 +63,8 @@ public final class Ballistics {
 		double penetration;
 		int age;
 		final Set<Entity> hit = new HashSet<>();
+		/** Whom the shooter's rounds pass by unharmed (a soldier's own townsfolk); null = nobody. */
+		java.util.function.@Nullable Predicate<Entity> spare;
 
 		Bullet(Vec3 pos, Vec3 vel, Caliber caliber, float damage, @Nullable Entity shooter) {
 			this.pos = pos;
@@ -76,8 +78,14 @@ public final class Ballistics {
 	}
 
 	public static void fire(ServerLevel level, @Nullable Entity shooter, Vec3 origin, Vec3 direction, Caliber caliber, double speedFactor, float damageFactor) {
+		fire(level, shooter, origin, direction, caliber, speedFactor, damageFactor, null);
+	}
+
+	public static void fire(ServerLevel level, @Nullable Entity shooter, Vec3 origin, Vec3 direction, Caliber caliber, double speedFactor, float damageFactor,
+		java.util.function.@Nullable Predicate<Entity> spare) {
 		Vec3 vel = direction.normalize().scale(caliber.speed() * speedFactor);
 		Bullet b = new Bullet(origin, vel, caliber, caliber.damage * damageFactor * (float) ArsenalConfig.get().damageMultiplier, shooter);
+		b.spare = spare;
 		BULLETS.computeIfAbsent(level, l -> new ArrayList<>()).add(b);
 		// the first tick right away: at close range the bullet should not lag behind the shot
 		if (!step(level, b)) {
@@ -170,7 +178,8 @@ public final class Ballistics {
 		EntityHit best = null;
 		double bestD = Double.MAX_VALUE;
 		for (Entity e : level.getEntities((Entity) null, box, EntitySelector.NO_SPECTATORS.and(Entity::isPickable))) {
-			if (e == b.shooter || b.hit.contains(e) || (b.shooter != null && (e == b.shooter.getVehicle() || e.hasPassenger(b.shooter)))) {
+			if (e == b.shooter || b.hit.contains(e) || (b.shooter != null && (e == b.shooter.getVehicle() || e.hasPassenger(b.shooter)))
+				|| b.spare != null && b.spare.test(e)) {
 				continue;
 			}
 			Optional<Vec3> at = e.getBoundingBox().inflate(0.05).clip(from, to);
