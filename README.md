@@ -15,7 +15,7 @@ A Fabric mod for **Minecraft 26.3**: modern small arms, rocket launchers, hand g
 
 1. Create an instance with Minecraft **26.3** and the **Fabric** loader (0.19.5 or newer).
 2. Add **Fabric API** (Edit → Mods → Download mods).
-3. Add `arsenal-1.0.0.jar` (Edit → Mods → Add file).
+3. Add `arsenal-1.1.0.jar` (Edit → Mods → Add file).
 4. On a server, put the jar and Fabric API into `mods/`. Every player needs the mod too.
 
 The download site also offers an auto-updating Prism instance that brings all our mods, including this one.
@@ -231,10 +231,18 @@ Weapons are made of receivers, barrels, polymer, wood and iron. Long guns need m
 | `flashbangSeconds` | 6 | longest a flashbang blinds |
 | `deafSeconds` | 8 | longest the ears ring |
 
+## For other mods
+
+From 1.1.0, `net.antwire.arsenal.api.ArsenalApi` lets any mob fire Arsenal's guns:
+- `fire(shooter, "m4a1", yaw, pitch, inaccuracy)` fires real bullets, with muzzle flash, tracer and sound for everyone nearby. Body armour, cover and walls act on them as on a player's shots.
+- `stack`, `magazine`, `interval` and `reloadTicks` describe each gun, and `reloadSound` plays a magazine change.
+
+The caller counts the rounds itself. Civitas uses this API for its soldiers.
+
 ## Building from source
 
 ```
-./gradlew build                                  # build/libs/arsenal-1.0.0.jar
+./gradlew build                                  # build/libs/arsenal-1.1.0.jar
 ./gradlew runClientGameTest -Pscenes=<scenes>    # the test range: weapons in hand, armour, firing, explosives, launchers, racks, HUD
 python3 tools/gen_guns.py                        # gun, launcher, rocket and grenade models from real dimensions
 python3 tools/gen_assets.py                      # textures, block models, language, recipes, loot tables
